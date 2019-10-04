@@ -1,0 +1,17 @@
+//g++  5.4.0
+//author Blahblahblahsomething
+//pointer snippet example
+#include <iostream>
+using namespace std;
+int main()
+{
+ int value1, value2;
+  int * mypointer;
+
+  mypointer = &value1;
+  *mypointer = 8675309;
+  mypointer = &value2;
+  *mypointer = 20;
+  cout << "value1 is " << value1 <<endl;
+  cout << "value2 is " << value2 <<endl;
+}
